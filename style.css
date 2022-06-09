@@ -13,3 +13,12 @@
   align-items:center;
   justify-content:center;
 }
+
+.search-bar{
+  background:#fff;
+  width:90%;
+  max-width:800px;
+  display:flex;
+  padding:20px;
+  border-radius:4px;
+}
