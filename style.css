@@ -32,4 +32,21 @@
   width:300px;
   padding:25px 20px;
   cursor:pointer;
+  position:relative;
+}
+
+#select ul{
+  position:absolute;
+  top:140%;
+  left:0;
+  list-style:none;
+  background:#111;
+  color:#fff;
+  width:100%;
+  border-radius:8px;
+}
+
+#select ul li{
+  padding:10px 20px;
+  cursor:pointer;
 }
