@@ -33,6 +33,12 @@
   padding:25px 20px;
   cursor:pointer;
   position:relative;
+  border-radius:4px;
+}
+
+#select h3{
+  padding:10px;
+  font-size:16px;
 }
 
 #select ul{
@@ -44,9 +50,20 @@
   color:#fff;
   width:100%;
   border-radius:8px;
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.5s;
 }
 
 #select ul li{
   padding:10px 20px;
   cursor:pointer;
+}
+
+.search-bar input{
+  padding:10px 25px;
+  width:100%;
+  border:none;
+  outline:none;
+  font-size:18px; 
 }
